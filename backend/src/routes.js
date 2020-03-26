@@ -1,26 +1,23 @@
-const express = require('express')
+import React from 'react'
+import { NavigationContainer} from '@react-navigation/native'
+import { createStackNavigator } from '@react-navigation/stack'
 
-const OngController = require('./controllers/OngController')
-const IncidentController = require('./controllers/IncidentController')
-const ProfileController = require('./controllers/ProfileController')
-const SessionController = require('./controllers/SessionController')
+const AppStack = createStackNavigator()
 
-
-const routes = express.Router();
-
-
-routes.post('/sessions', SessionController.create)
-
-//Listar todas as Ongs
-routes.get('/ongs', OngController.index)
+import Incidents from './pages/Incidents'
+import Detail from './pages/Detail'
 
 
-routes.get('/profile', ProfileController.index)
-//Criar Ong
-routes.post('/ongs', OngController.create)
+export default function Routes(){
+  return (
+    <NavigationContainer>
 
-routes.get('/incidents', IncidentController.index)
-routes.post('/incidents', IncidentController.create)
-routes.delete('/incidents/:id', IncidentController.delete)
+      <AppStack.Navigator screenOptions={{ headerShown: false}}>
+        <AppStack.Screen name="Incidents" component={Incidents} />
+        <AppStack.Screen name="Detail"component={Detail} />
 
-module.exports = routes
+      </AppStack.Navigator>
+    </NavigationContainer>
+  )
+
+}
