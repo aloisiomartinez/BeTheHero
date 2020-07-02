@@ -1,2 +1,1 @@
-# BeTheHero
-Aplicação criada usando Node.JS, ReactJS e React Native. Sistema onde pessoas conseguem ajudar financeiramente ONGs a resolver problemas.
+Projeto completo com Backend, Frontend e Mobile, utilizando Node.JS e React para que pessoas encontrem casos de animais para que possam fazer suas doações através de Ongs.
