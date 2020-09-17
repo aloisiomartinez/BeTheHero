@@ -15,7 +15,7 @@ Projeto completo desenvolvido na semana Next Level Week da [Rocketseat](http://r
 ## :rocket:  Tecnologias
 
 Esse projeto foi desenvolvido utilizando as tecnologias abaixo:
-- <a href="https://www.typescriptlang.org/">Typescript</a>
+- <a href="https://www.javascript.com//">Javascript</a>
 - <a href="https://nodejs.org/en/">Node.JS</a>
 - <a href="https://reactjs.org/">React</a>
 - <a href="https://expo.io/">Expo</a>
