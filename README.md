@@ -32,7 +32,7 @@ Para utilizar a aplicação, você precisa ter instalado no seu computador o [No
 $ git clone https://github.com/aloisiomartinez/BeTheHero.git
 
 # Acessar a pasta
-$ cd BeTheHero/server
+$ cd BeTheHero/backend
 
 # Instalar dependências
 $ npm install
