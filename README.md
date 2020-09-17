@@ -1,5 +1,5 @@
 <h1 align=center>
-![Proffy](Proffy.png)
+![BeTheHero](BeTheHero.png)
 ![Proffy](Proffy2.png)
 </h1>
 
