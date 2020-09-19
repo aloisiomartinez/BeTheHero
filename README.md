@@ -1,4 +1,3 @@
-Imagens
 
 ![Be The Hero](https://user-images.githubusercontent.com/41764501/93539029-02d7ec00-f926-11ea-9485-d8260e522a9a.png)
 ![Be The Hero(1)](https://user-images.githubusercontent.com/41764501/93539032-04091900-f926-11ea-9298-ea3ead726820.png)
